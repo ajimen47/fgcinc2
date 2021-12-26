@@ -1,4 +1,3 @@
-import 'package:fgcinc/Notes/notes_page.dart';
 import 'package:fgcinc/page/AdminPages/AddEvent.dart';
 import 'package:fgcinc/page/AdminPages/Addholds.dart';
 import 'package:fgcinc/page/AdminPages/appointment.dart';
@@ -133,7 +132,7 @@ class _AdminPageState extends State<AdminPage> {
         break;
       case 6:
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => Notes(),
+          builder: (context) => About(),
         ));
         break;
       case 7:
